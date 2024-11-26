@@ -1,0 +1,199 @@
+Recursion- 1: What is the base case in Recursion-?
+A. A function that always returns the same value.
+B. The condition where Recursion- ends.
+C. The largest input value.
+D. The first step in Recursion-.
+Answer: B
+
+Recursion- 2: Which of the following is an example of direct Recursion-?
+A. A function A() that calls itself.
+B. A function A() that calls function B(), which then calls A().
+C. A function that has no recursive calls.
+D. A function that calls itself inside a loop.
+Answer: A
+
+Recursion- 3: What is the output of the following code?
+
+public static int fun(int n) {
+    if (n == 0) return 0;
+    return n + fun(n - 1);
+}
+System.out.println(fun(5));
+A. 5
+B. 10
+C. 15
+D. 0
+Answer: C
+
+Recursion- 4: What does the following recursive function return for n = 3?
+
+public static int factorial(int n) {
+    if (n == 1) return 1;
+    return n * factorial(n - 1);
+}
+System.out.println(factorial(3));
+A. 1
+B. 3
+C. 6
+D. 9
+Answer: C
+
+Recursion- 5: Which of the following is NOT a type of Recursion-?
+A. Direct Recursion-
+B. Tail Recursion-
+C. Fibonacci Recursion-
+D. Indirect Recursion-
+Answer: C
+
+Recursion- 6: What is the primary risk of improper recursive function design?
+A. Division by zero
+B. Infinite Recursion- leading to stack overflow
+C. Memory leak
+D. Infinite loop
+Answer: B
+
+Recursion- 7: What is the output of this recursive function for n = 3?
+public static void print(int n) {
+    if (n == 0) return;
+    System.out.println(n);
+    print(n - 1);
+}
+A. 3 2 1
+B. 1 2 3
+C. 3 3 3
+D. Infinite Recursion-
+Answer: A
+
+Recursion- 8: Which data structure is typically used to store recursive function calls?
+A. Queue
+B. Stack
+C. Linked List
+D. HashMap
+Answer: B
+
+Recursion- 9: What is the output of the following code?
+public static int sum(int n) {
+    if (n == 0) return 0;
+    return n + sum(n / 2);
+}
+System.out.println(sum(8));
+A. 15
+B. 16
+C. 12
+D. 7
+Answer: A
+
+Recursion- 10: What is the output of the following code for n = 4?
+public static void printNumbers(int n) {
+    if (n == 0) return;
+    printNumbers(n - 1);
+    System.out.print(n + " ");
+}
+A. 4 3 2 1
+B. 1 2 3 4
+C. 4 3 2
+D. 1 2 3
+Answer: B
+
+Recursion- 11: Which of the following is an example of tail Recursion-?
+A. A recursive function that makes multiple recursive calls before returning a value.
+B. A recursive function that returns after making the recursive call.
+C. A recursive function that does not make any recursive calls.
+D. A recursive function that calls a different function.
+Answer: B
+
+
+Recursion- 12: What is the output of the following function for n = 5?
+public static int countDown(int n) {
+    if (n == 0) return 0;
+    return 1 + countDown(n - 1);
+}
+System.out.println(countDown(5));
+A. 5
+B. 6
+C. 0
+D. 1
+Answer: B
+
+Recursion- 13: What will the following function return for n = 10?
+public static int f(int n) {
+    if (n <= 1) return 1;
+    return f(n - 1) + f(n - 2);
+}
+System.out.println(f(10));
+A. 89
+B. 55
+C. 34
+D. 144
+Answer: B
+
+Recursion- 14: The Recursion depth in a recursive algorithm affects which aspect the most?
+
+A. Time complexity
+B. Space complexity
+C. Number of function calls
+D. Input size
+Answer: B
+
+Recursion- 15: What is the time complexity of a function that calls itself recursively n times with a constant work in each call?
+A. O(n)
+B. O(log n)
+C. O(n^2)
+D. O(2^n)
+Answer: A
+
+
+Recursion- 16: Which of the following can lead to a stack overflow error?
+A. Too many recursive function calls
+B. A loop running indefinitely
+C. Lack of base case in Recursion
+D. Cannot predict
+Answer: A and C
+
+Recursion- 17: What is the time complexity of the following recursive function?
+public static void foo(int n) {
+    if (n <= 1) return;
+    foo(n / 2);
+    foo(n / 2);
+}
+A. O(log n)
+B. O(n)
+C. O(n log n)
+D. O(2^log n)
+Answer: D
+
+Recursion- 18: What is the time complexity of the following function?
+public static int func(int n) {
+    if (n == 1) return 1;
+    return 2 * func(n - 1);
+}
+A. O(2^n)
+B. O(n)
+C. O(log n)
+D. O(n^2)
+Answer: A
+
+Recursion- 19: What does the following code output for n = 10?
+public static int mystery(int n) {
+    if (n == 0) return 0;
+    if (n % 2 == 0) return n + mystery(n - 1);
+    return mystery(n - 1);
+}
+System.out.println(mystery(10));
+A. 30
+B. 25
+C. 20
+D. 15
+Answer: C
+
+Recursion- 20: What will the following function return for n = 8?
+public static int powerOfTwo(int n) {
+    if (n == 1) return 1;
+    return 2 * powerOfTwo(n - 1);
+}
+System.out.println(powerOfTwo(8));
+A. 128
+B. 256
+C. 512
+D. 1024
+Answer: A

@@ -1,0 +1,167 @@
+1. What is the time complexity of accessing an element in an array by its index?
+
+int x = arr[i];
+
+A) O(1)
+B) O(n)
+C) O(log n)
+D) O(n²)
+Answer: A
+Explanation: Accessing an element in an array by index takes constant time, O(1).
+
+2. What is the time complexity of the following code?
+
+for (int i = 1; i <= n; i *= 2) {
+    for (int j = 1; j <= i; j++) {
+        System.out.println(j);
+    }
+}
+A) O(n)
+B) O(n log n)
+C) O(n²)
+D) O(log n)
+Answer: B
+Explanation: The outer loop runs in O(log n), but the inner loop runs up to i(i.e n times). The total number of iterations is O(n log n).
+
+
+3. What is the time complexity of the following code?
+
+int count = 0;
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        if (i == j) {
+            count++;
+        }
+    }
+}
+A) O(n)
+B) O(n²)
+C) O(n log n)
+D) O(n³)
+Answer: B
+Explanation: Both loops iterate n times, so the total time complexity is O(n²).
+
+4. What is the time complexity of the following code?
+
+for (int i = 0; i < n; i++) {
+    for (int j = i; j < n; j++) {
+        System.out.println(i + ", " + j);
+    }
+}
+A) O(n)
+B) O(n²)
+C) O(n log n)
+D) O(n!)
+Answer: B
+Explanation: The outer loop runs n times, and for each iteration of the outer loop, the inner loop runs progressively fewer times (n, n-1, n-2, ..., 1). The total number of iterations is proportional to n².
+
+5. What is the time complexity of the following code?
+
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n * n; j++) {
+        System.out.println(i + ", " + j);
+    }
+}
+A) O(n)
+B) O(n²)
+C) O(n³)
+D) O(log n)
+Answer: C
+Explanation: The outer loop runs n times, and the inner loop runs n² times, resulting in a total time complexity of O(n³).
+
+6. What is the time complexity of the following code snippet?
+
+for (int i = 0; i < n; i++) {
+    for (int j = i; j > 0; j--) {
+        System.out.println(i + ", " + j);
+    }
+}
+A) O(n)
+B) O(n²)
+C) O(n log n)
+D) O(n³)
+Answer: B
+Explanation: The outer loop runs n times, and the inner loop runs progressively more times (1, 2, 3, ..., n). The total time complexity is O(n²).
+
+7. What is the time complexity of the following loop?
+
+for (int i = 1; i < n; i *= 2) {
+    System.out.println(i);
+}
+A) O(n)
+B) O(log n)
+C) O(n log n)
+D) O(n²)
+Answer: B
+Explanation: The loop runs by doubling i each time, so it runs O(log n) times.
+
+8. What is the time complexity of the following recursive function?
+
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}
+A) O(n)
+B) O(n²)
+C) O(2ⁿ)
+D) O(log n)
+Answer: A
+Explanation: The function makes n recursive calls, so the time complexity is O(n).
+
+9. What is the time complexity of the following recursive function?
+
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+A) O(n)
+B) O(n²)
+C) O(2ⁿ)
+D) O(n log n)
+Answer: C
+Explanation: The function makes two recursive calls for each invocation, leading to an exponential time complexity of O(2ⁿ).
+
+10. What is the time complexity of the following code?
+
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        for (int k = 0; k < n; k++) {
+            System.out.println(i + ", " + j + ", " + k);
+        }
+    }
+}
+A) O(n²)
+B) O(n³)
+C) O(log n)
+D) O(n!)
+Answer: B
+Explanation: Three nested loops, each running n times, results in a time complexity of O(n³).
+
+11. What is the time complexity of the following code?
+
+for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= n; j *= 2) {
+        System.out.println(i + ", " + j);
+    }
+}
+A) O(n)
+B) O(n log n)
+C) O(n²)
+D) O(log n)
+Answer: B
+Explanation: The outer loop runs n times, and the inner loop runs O(log n) times, resulting in O(n log n).
+
+12. What is the time complexity of finding the maximum element in an unsorted array?
+
+int max = arr[0];
+for (int i = 1; i < n; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
+}
+A) O(n)
+B) O(n log n)
+C) O(n²)
+D) O(1)
+Answer: A
+Explanation: Finding the maximum element in an unsorted array requires scanning through all the elements, so the time complexity is O(n).

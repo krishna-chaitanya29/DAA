@@ -1,0 +1,279 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "DAA_Day20_SP27_The_Maze",
+            "request": "launch",
+            "mainClass": "DAA_Day20_SP27_The_Maze",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "DAA_Day15_SP19_Single_Source_Shortest_Path",
+            "request": "launch",
+            "mainClass": "DAA_Day15_SP19_Single_Source_Shortest_Path",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "max_profit",
+            "request": "launch",
+            "mainClass": "max_profit",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "Graph",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Day10_SP16_Median_of_Two_SortedArrays",
+            "request": "launch",
+            "mainClass": "Day10_SP16_Median_of_Two_SortedArrays",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Day9_AP14_Longest_Common_Prefix_HashMap",
+            "request": "launch",
+            "mainClass": "Day9_AP14_Longest_Common_Prefix_HashMap",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Day9_SP12_BinarySearch",
+            "request": "launch",
+            "mainClass": "Day9_SP12_BinarySearch",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Day9_SP13_FixedPoint",
+            "request": "launch",
+            "mainClass": "Day9_SP13_FixedPoint",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Day9_SP15_Longest_Common_Prefix",
+            "request": "launch",
+            "mainClass": "Day9_SP15_Longest_Common_Prefix",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "FractionalKnapsack",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Identifying_peak_houses",
+            "request": "launch",
+            "mainClass": "Identifying_peak_houses",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Majority_element",
+            "request": "launch",
+            "mainClass": "Majority_element",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Max_sub_array",
+            "request": "launch",
+            "mainClass": "Max_sub_array",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "ModifyZero_1",
+            "request": "launch",
+            "mainClass": "ModifyZero_1",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Power_calculation",
+            "request": "launch",
+            "mainClass": "Power_calculation",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortR",
+            "request": "launch",
+            "mainClass": "QuickSortR",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Rearrange_numbers",
+            "request": "launch",
+            "mainClass": "Rearrange_numbers",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_climbing_strias",
+            "request": "launch",
+            "mainClass": "Recursion_climbing_strias",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_fabnocii_sequence",
+            "request": "launch",
+            "mainClass": "Recursion_fabnocii_sequence",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_k_th_index_symbol",
+            "request": "launch",
+            "mainClass": "Recursion_k_th_index_symbol",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_prime_strobogrammatic_num_prime_largest_smallest",
+            "request": "launch",
+            "mainClass": "Recursion_prime_strobogrammatic_num_prime_largest_smallest",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_strobogrammatic_number_prime_number",
+            "request": "launch",
+            "mainClass": "Recursion_strobogrammatic_number_prime_number",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "SP8_QuickSort",
+            "request": "launch",
+            "mainClass": "SP8_QuickSort",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "StrobogrammaticNumbers",
+            "request": "launch",
+            "mainClass": "StrobogrammaticNumbers",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "TempertaureAndTarget",
+            "request": "launch",
+            "mainClass": "TempertaureAndTarget",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "factorial_recursion",
+            "request": "launch",
+            "mainClass": "factorial_recursion",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "happy_number",
+            "request": "launch",
+            "mainClass": "happy_number",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "modify_zero",
+            "request": "launch",
+            "mainClass": "modify_zero",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "remove_duplicate",
+            "request": "launch",
+            "mainClass": "remove_duplicate",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "reverse_string",
+            "request": "launch",
+            "mainClass": "reverse_string",
+            "projectName": "DAA_9193784a"
+        },
+        {
+            "type": "java",
+            "name": "rotation_array",
+            "request": "launch",
+            "mainClass": "rotation_array",
+            "projectName": "DAA_9193784a"
+        }
+    ]
+}
